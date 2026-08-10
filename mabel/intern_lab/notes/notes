@@ -1,0 +1,123 @@
+30 linux commands that i have learn
+
+command: pwd
+purpose: Displays the current working directory
+example: pwd
+
+command: cp
+purpose: makes a duplicate of a file or folder
+example: cp note.txt file.txt
+
+command: ls
+purpose: list the content of the folder
+example: ls
+
+command: cd 
+purpose: change directory 
+example: cd /home/user
+
+command: mkdir
+purpose: create a new directory
+example: mkdir notes
+
+command: less
+purpose: display paged outputs in the terminal
+example: less file.txt
+
+command: clear
+purpose: clears the terminal
+example: clear
+
+command: ssh
+purpose: it lets you to log in and control another computer on the internet
+example: ssh username@hostname
+
+
+command: touch
+purpose: create an empty file 
+example: touch note.txt
+
+command: rmdir
+purpose: remove an empty directory
+example: rmdir notes
+
+command: mv
+purpose: move and rename files and folders
+example: mv note.txt
+
+command: rm
+purpose: delete files or directories
+example: rm file.txt
+
+command: cat
+purpose: display file content on the screen
+example: cat file.txt
+
+command: echo
+purpose: prints text in the terminal
+example: echo "hello world"
+
+command: sudo 
+purpose: super user do
+example: sudo apt update
+
+command: chmod
+purpose: change the owner user and group of a file.
+example: chmod +x script.sh
+
+command:free
+purpose: shows free and used system memory
+example: free -m
+
+command: wc
+purpose: count lines,words and characters
+example: wc file.txt
+
+command: tail
+purpose: outputs the last lines of a file
+example: tail -n 5 file.txt
+
+command: head
+purpose: shows the beginning of a file
+example: head main.c
+
+command: file
+purpose: shows what it really is inside
+example: file main.c
+
+command: ls -la
+purpose: displays hidden files
+example: ls -la
+
+command: man
+purpose: help guide for any command in the ternimal
+example: man printf
+
+command: grep
+purpose: search for specific text inside a file or output
+example: grep "error" file.txt
+
+command: whoami
+purpose: show your active login username
+example: whoami 
+
+command: ps
+purpose: display active processes
+example: ps
+
+command: whatis
+purpose: find what a command is used for
+example: whatis
+
+command: cmp
+purpose: use to compare two files
+example: cmp file.txt not.txt
+
+command: gcc
+purpose: use to compile prgrams
+example: gcc main.c -0 hello 
+
+command: history
+purpose: shows a list of previously typed commands
+example: history
+
