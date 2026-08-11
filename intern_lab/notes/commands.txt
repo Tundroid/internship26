@@ -1,0 +1,119 @@
+Command: pwd
+Purpose: Displays the current working directory.
+Example: pwd
+
+Command: ls
+Purpose: Lists files and directories in the current directory.
+Example: ls
+
+Command: cd
+Purpose: Changes the current working directory.
+Example: cd notes
+
+Command: mkdir
+Purpose: Creates a new directory.
+Example: mkdir projects
+
+Command: touch
+Purpose: Creates a new empty file.
+Example: touch file.txt
+
+Command: cat
+Purpose: Displays the content of a file.
+Example: cat linux.txt
+
+Command: cp
+Purpose: Copies a file or directory.
+Example: cp file.txt backup/
+
+Command: mv
+Purpose: Moves or renames a file or directory.
+Example: mv old.txt new.txt
+
+Command: rm
+Purpose: Removes a file.
+Example: rm file.txt
+
+Command: rmdir
+Purpose: Remove an empty directory.
+Example: rmdir empty_folder
+
+Command: echo
+Purpose: Displays text or sends text to a file.
+Example: echo "Hello Linux"
+
+Command: head
+Purpose: Displays the beginning of a file.
+Example: head commands.txt
+
+Command: file
+Purpose: Displays information about the type of a file.
+Example: file student.csv 
+
+Command: clear
+Purpose: Clears the terminal screen.
+Example: clear
+
+Command: whoami
+Purpose: Displays the username of the current user.
+Example: whoami
+
+Command: date
+Purpose: Displays the current date and time.
+Example: date
+
+Command: less
+Purpose: Displays the content of a file one screen at a time, allowing you to scroll through it.
+Example: less commands.txt
+
+Command: tail
+Purpose: Displays the last lines of a file.
+Example: tail commands.txt
+
+Command: grep
+Purpose: Searches for matching text in files.
+Example: grep "Linux" commands.txt
+
+Command: sort
+Purpose: Sorts lines of text.
+Example: sort commands.txt
+
+Command: uniq
+Purpose: Removes or displays repeated adjacent lines.
+Example: uniq names.txt
+
+Command: tree 
+Purpose: Displays directoriesand files in a tree structure.
+Example: tree
+
+Command: nano
+Purpose: Opens or creates a text file using the Nano text editor.
+Example: nano answers.md
+
+Command: ls -l
+Purpose: Displays files and directories in a detailed format.
+Example: ls -l
+
+Command: ls -la
+Purpose: Displays all files, including hidden files, in a detailed format.
+Example: ls -la
+
+Command: printf
+Purpose: Prints formatted text.
+Example: printf "Hello Linux\n"
+
+Command: history
+Purpose: Displays previously entered commands.
+Example: history
+
+Command: man
+Purpose: Displays the manual page for a command.
+Example: man ls
+
+Command: wc
+Purpose: Counts lines, words, and characters in a file.
+Example: wc commands.txt
+
+Command: basename
+Purpose: Displays the final part of a file path, usually the file name.
+Example: basename /home/student/intern_lab/notes/linux.txt
