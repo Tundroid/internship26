@@ -1,0 +1,6 @@
+Security investigation notes
+The admin account had several failed login attempts.
+The root account was accessed successfully.
+A password reset was requested.
+WARNING: Review user permissions.
+ERROR: One authentication attempt failed.

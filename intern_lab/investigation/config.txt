@@ -1,0 +1,6 @@
+server=production
+user=admin
+backup_user=root
+password=secure_password
+authentication=enabled
+login_status=success

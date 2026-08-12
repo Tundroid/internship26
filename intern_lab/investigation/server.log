@@ -1,0 +1,7 @@
+INFO: Server started successfully
+INFO: User admin logged in
+WARNING: Multiple failed login attempts detected
+ERROR: Database connection failed
+INFO: User root login success
+WARNING: Disk space is getting low
+ERROR: Authentication service failed

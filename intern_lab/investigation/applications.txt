@@ -1,0 +1,7 @@
+Hospital Management System
+Git
+MySQL
+Python
+FastAPI
+Apache
+Docker
