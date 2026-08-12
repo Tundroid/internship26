@@ -9,5 +9,3 @@ Task 1
 4)the absolute path starts with / and starts from the root directory e.g /home/Mabeltech/internship2026/intern_lab but the relative path start from the  current directory e.g internship2026/intern_lab
 
 5)ls -a
-
-
