@@ -1,0 +1,5 @@
+alice - standard user - login success
+bob - standard user - login success
+admin - administrator account
+root - system account
+charlie - login failed

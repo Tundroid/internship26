@@ -1,0 +1,5 @@
+web server - running
+Database server - running
+SSH - enabled
+Back application - success
+Admin dashboard - available

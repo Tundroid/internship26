@@ -1,0 +1,71 @@
+TAsk 4
+
+1. How many .log files exist?
+command: find . -type f -name "*.log" | wc -l
+answer: 2
+
+2. Which files contain ERROR?
+command:grep -rl "ERROR" investigation
+answer:
+ investigation/network.log
+investigation/server.log 
+
+3.Which files contain WARNING?
+command:grep -rl "WARNING" investigation
+answer: investigation/network .log
+investigation/server.log
+ 
+4. Which files contain admin?
+command:  grep -rl "admin" investigation
+answer:
+investigation/server.log
+investigation/config.txt
+investigation/user.txt
+
+5. Find all occurrences of password.
+command: grep -rin "password" investigation
+answer:
+investigation/config.txt:3:password_policy=strong
+
+6. Find all files in the directory.
+command: find investigation -type f 
+answer:
+investigation/applications.txt
+investigation/notes.txt
+investigation/server.log
+investigation/network.log
+investigation/config.txt
+investigation/users.txt
+
+7. Find all empty files
+command: find investigation -type f -empty
+answer: investigation/notes.txt
+
+TAsk 5 linux permissions
+
+1. what does the chmod do?
+answer:chmod changes the mode of a file or directory.it contro;s who can read, write or execute
+
+2.what does chmod 755 mean?
+answer: 755 means 
+
+owner: rwx =7
+group:r-x =5
+others:r-x=5
+the owner can read,write and execute while the group and others can only read and execute
+
+3. what does chmod 600 do?
+answer:600 means
+
+owner: rw-
+group:---
+others:---
+the owner can read, write but can not execute while while the group and others can not raed,write or execute the file
+
+4. why does a script need execute permission?
+answer:
+A script needs execution permission to allow linux to execute directly
+
+5. What security problem can occur when sensitive files have excessive permissions?
+answer: 
+It can allow unauthorized users to read, modify or execute files they should not have access to

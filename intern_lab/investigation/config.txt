@@ -1,0 +1,5 @@
+server = production
+admin=enabled
+password_policy=strong
+root_access=restricted
+login=success
