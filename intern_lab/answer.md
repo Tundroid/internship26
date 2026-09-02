@@ -1,4 +1,4 @@
-Task 1
+ Task 1
 
 1)/home/Mabeltech/internship2026/intern_lab
 
@@ -91,3 +91,43 @@ command:
       2 Mabel
       2 Lambert
       2 Kelly
+
+
+
+Task 6
+1. find a process
+command: ps aux | grep '[s]leep'
+
+answer: Mabelte+    1525  0.0  0.1   5564  2152 pts/0    S    13:10   0:00 sleep 300
+
+2. find the process ID
+command: sleep 300 &
+
+answer: PID = 1599
+
+3. check whether its still running
+command: ps -p 1599
+
+answer:  PID TTY          TIME CMD
+        1599 pts/0    00:00:00 sleep
+
+4. terminate the process
+command: kill 1599
+answer: [1]+  Terminated                 sleep 300
+
+5.check whether its still running
+command:  ps -p 1599
+
+answer: PID TTY           TIME CMD
+
+6. what is a process
+ answer: A process is a running instance of a program
+
+7. what is a PID
+answer: It is a unique number that is assigned to each process by linux
+
+8. what is a background process
+answer: It is a process that runs without keeping your terminal occupied
+
+9. what does kill do
+answer: is sends signal to a process
