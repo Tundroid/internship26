@@ -187,4 +187,36 @@ A script needs execute permission so that the operating system allows the user t
 5. What security problem can occur when sensitive files have excessive permissions?
 
 Answer:
-Excessive permissions can allow unauthorized users to read, modify, or delete sensitive files, which can lead to data exposure or security breaches.
+Excessive permissions can allow unauthorized users to read, modify, or delete sensitive files, which can lead to data exposure 
+or security breaches.
+[Personal Access Token removed for security]
+
+
+PART 6 - PROCESSES
+TASK 6 - Processes Experiment
+
+The process experiment was performed using the `sleep 300 &` command. The process was located using `ps` and 
+`pgrep`, its PID was identified, its running status was checked, and it was terminated using the `kill` command. 
+The process was then checked again to verify that it had stopped.
+
+ Questions and Answers
+
+1. What is a process?
+
+A process is a running instance of a program or command. When Linux executes a program, it creates a process to
+manage its execution.
+
+2. What is a PID?
+
+PID stands for Process ID. It is a unique number assigned by Linux to a running process. It allows the process to be 
+identified and managed.
+
+3. What is a background process?
+
+A background process is a process that runs without occupying the terminal, allowing the user to continue entering 
+other commands. A command can be run in the background by adding the `&` symbol at the end.
+
+4. What does kill do?
+
+The `kill` command sends a signal to a process. It is commonly used with a process's PID to request that the process 
+terminate.
