@@ -56,6 +56,7 @@ int main() {
             break;
         case 7:
             printf("Exiting the program.\n");
+            free(students);
             exit(150);
             break;
         default:
